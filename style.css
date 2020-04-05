@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+#sketch-holder {
+    margin: 0;
+    display: flex;
+  
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+  
+    /* This centers our sketch vertically. */
+    align-items: center;
+    padding: 25px;
+}
+
+.total-latest {
+    margin: 5px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg, #total-latest, #current-country {
+    color: rgb(244, 244, 244);
+    background-color: rgb(6, 159, 176);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+    
+}
+
+.bg {
+    padding: 10px;
+    font-size: 30px;
+}
+
+#confimred, #deaths, #total, .country-info {
+    width: 7em;
+   margin-left: 8px;
+}
+
+.country-selector, #all-countries {
+    float: right;
+}
+
+#all-countries {
+    margin-right: 30px;
+}
+
+.country-selector {
+    padding: 20px;
+}
+
+
+#country-confirmed {
+    color: rgb(0, 189, 0);
+}
+
+#country-deaths {
+    color: rgb(189, 31, 0);
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Tracker</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+    <div class="total-latest" id="total-latest">
+        <h2 id="total"><span style="color: rgb(186, 50, 50)">COVID-19</span> Worldwide</h2>
+        <div id="confirmed"></div>
+        <div id="deaths"></div> 
+        <!-- <div id="recovered"></div>  -->
+    </div> 
+    <div class="country-selector">
+        <h2 class="bg">Select a country:</h2>
+        <select id="countries" name="countries">
+            <!-- adding country options in js -->
+        </select>  
+    </div>
+    <div id="sketch-holder">
+        <!-- Our sketch will go here! -->
+    </div>
+    <div class="total-latest">
+        <h1 class="country-info" id="current-country"></h1>
+        <h2 class="country-info" id="country-confirmed"></h2>
+        <h2 class="country-info" id="country-deaths"></h2>
+    </div>
+       
+</body>
+</html>
